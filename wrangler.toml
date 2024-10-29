@@ -1,14 +1,20 @@
 name = "reaction"
 main = "src/index.ts"
 compatibility_date = "2024-10-25"
-compatibility_flags = [ "nodejs_compat" ]
+compatibility_flags = ["nodejs_compat"]
 
 [vars]
-ORIGINS = [ ]
-EMOJIS = [ ]
-SLUGS = [ ]
+ORIGINS = ["https://isunjn.me", "https://isunjn.github.io"]
+EMOJIS = ["👍", "👀", "😠", "☔"]
+SLUGS = [
+  "hello-world",
+  "snl-compiler-in-ts",
+  "read-effective-ts",
+  "une-vie",
+  "il-deserto-dei-tartari",
+]
 
 [[d1_databases]]
 binding = "DB"
-database_name = ""
-database_id = ""
+database_name = "reaction-blog"
+database_id = "6cb5b425-0787-46d9-90b6-211ddfa603a5"
